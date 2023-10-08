@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_first_pet/pages/home_page.dart';
 import 'package:my_first_pet/pages/splash_page.dart';
 
 class AppWidget extends StatelessWidget {
@@ -11,7 +12,7 @@ class AppWidget extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const SplashPage(),
+      home: const HomePage(),
     );
   }
 }
